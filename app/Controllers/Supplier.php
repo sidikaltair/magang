@@ -5,9 +5,8 @@ namespace App\Controllers;
 use App\Models\ModelKertas;
 
 class Supplier extends BaseController
-
 {
-    protected  $modelKertas;
+    protected $modelkertas;
     public function __construct()
     {
         $this->modelKertas = new ModelKertas();
@@ -22,9 +21,9 @@ class Supplier extends BaseController
         ];
 
 
+
         return view('subbahan/Kertas', $data);
     }
-
 
     public function Lem()
     { {

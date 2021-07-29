@@ -23,4 +23,5 @@
 			</div>
 		</div>
 	</div>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel saepe minus maiores sapiente facere dignissimos quam nemo error placeat, aliquid, a culpa temporibus labore, consequatur expedita cumque voluptas sit magnam.</p>
 	<?= $this->endSection(); ?>
