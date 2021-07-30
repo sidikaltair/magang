@@ -9,5 +9,9 @@ class ModelKertas extends Model
     protected $table = 'kertas';
     protected $primaryKey = 'id_kertas';
     protected $useTimestamps = 'true';
-    protected $allowedFields = ['tanggal_pemesanan', 'created_at', 'Nama_krts', 'jenis_ivo', 'Jumlah_rim', 'ukuran', 'gramature', 'slug'];
+    // protected $allowedFields = ['tanggal_pemesanan', 'created_at', 'Nama_krts', 'Jenis_ivo', 'Jumlah_rim', 'ukuran', 'gramature', 'slug'];
+    // protected function initialize()
+    // {
+    //     $this->allowedFields[] = 'kertas';
+    // }
 }

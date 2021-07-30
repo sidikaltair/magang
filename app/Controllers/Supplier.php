@@ -5,9 +5,8 @@ namespace App\Controllers;
 use App\Models\ModelKertas;
 
 class Supplier extends BaseController
-
 {
-    protected  $modelKertas;
+    protected $modelkertas;
     public function __construct()
     {
         $this->modelKertas = new ModelKertas();
@@ -15,10 +14,11 @@ class Supplier extends BaseController
     public function Kertas()
     {
         $kertas = $this->modelKertas->findAll();
+
         $data = [
             'title' => 'Kertas',
             'jumbo' => 'Kertas',
-            'kertas' => 'kertas'
+            'kertas' =>  $kertas,
         ];
 
 
